@@ -10,6 +10,6 @@ export const ImageGallery = ({ children }) => {
     )
 };
 
-ImageGallery.prototypes = {
+ImageGallery.propTypes = {
     children: PropTypes.node.isRequired,
 };

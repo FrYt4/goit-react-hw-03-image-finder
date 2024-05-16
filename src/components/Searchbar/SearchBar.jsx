@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import css from './SearchBar.module.css'
+import css from './Searchbar.module.css'
 
 
-export const SearchBar = ({ onSubmit }) => {
+export const Searchbar = ({ onSubmit }) => {
     const [searchedValue, setSearchedValue] = useState('');
 
     const handleSearchedValue = async (e) => {
@@ -36,6 +36,6 @@ return (
     )
 }
 
-SearchBar.prototypes = {
+Searchbar.prototypes = {
     onSubmit: PropTypes.func.isRequired
 }
