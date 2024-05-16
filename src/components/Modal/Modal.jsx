@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
-import css from './Gallery.module.css'
+import css from './Modal.module.css'
 
 export const Modal = ({ onClick, openModal }) => {
     
